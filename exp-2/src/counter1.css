@@ -1,0 +1,30 @@
+counterLayout {
+  padding: 0px 20px;
+
+  .heading {
+    color: cornflowerblue;
+  }
+}
+
+.buttonLayout {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.button {
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    outline: none;
+
+    &.green {
+      border: 1px solid green;
+      background: palegreen;
+    }
+
+    &.red {
+      border: 1px solid red;
+      background: indianred;
+    }
+}
